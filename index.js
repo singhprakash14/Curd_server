@@ -34,6 +34,6 @@ app.use(errorHandler);
 app.listen(process.env.PORT, async () => {
   // Connect to MongoDB
   await connectToMongoDB();
-  console.log(`Server is listening on port ${process.env.PORT}`.bgBlue.white);
+  console.log("jai hind",`Server is listening on port ${process.env.PORT}`.bgBlue.white);
 });
 
